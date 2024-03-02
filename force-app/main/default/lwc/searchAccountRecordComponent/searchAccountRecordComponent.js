@@ -2,6 +2,7 @@ import { LightningElement, track } from 'lwc';
 
 import SearchAccountRecords from '@salesforce/apex/LWCAccountHelper.SearchAccountRecords';
 
+// Add the comment here
 const tablecolums=[
                     {label:'Account Name',fieldName:'Name'},
                     {label:'Account Rating',fieldName:'Rating'},
