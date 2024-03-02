@@ -1,7 +1,7 @@
 import { LightningElement, track } from 'lwc';
 
 import SearchAccountRecords from '@salesforce/apex/LWCAccountHelper.SearchAccountRecords';
-//Add the comment herr for updating into the got repository
+
 
 const tablecolums=[
                     {label:'Account Name',fieldName:'Name'},
